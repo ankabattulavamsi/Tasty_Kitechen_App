@@ -1,0 +1,127 @@
+.cart-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-item-info {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 786px) {
+  .cart-item-info {
+    width: 50%;
+  }
+}
+
+.cart-item-image {
+  width: 136px;
+  height: 100px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.cart-item-desktop-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #183b56;
+}
+@media screen and (max-width: 786px) {
+  .cart-item-desktop-name {
+    display: none;
+  }
+}
+
+.cart-item-mobile-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #183b56;
+  text-align: center;
+  margin: 0px;
+}
+@media screen and (min-width: 786px) {
+  .cart-item-mobile-name {
+    display: none;
+  }
+}
+
+.cart-qty-price-cont {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0px;
+}
+
+@media screen and (min-width: 786px) {
+  .cart-qty-price-cont {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.cart-qty-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 786px) {
+  .cart-qty-container {
+    flex-direction: row;
+    width: 50%;
+  }
+}
+
+.decrement-quantity {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 5px;
+  color: #3e4c59;
+}
+
+.increment-quantity {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 5px;
+  color: #3e4c59;
+}
+
+.item-quantity {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin: 0px;
+}
+
+.price {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffa412;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+}
+
+@media screen and (min-width: 786px) {
+  .price {
+    width: 50%;
+  }
+}

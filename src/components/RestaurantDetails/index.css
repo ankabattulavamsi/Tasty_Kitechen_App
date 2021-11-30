@@ -1,0 +1,26 @@
+.food-items-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1200px;
+  margin-left: 0;
+  margin-top: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .food-items-list {
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 35px;
+    padding-left: 0;
+  }
+}
+
+.restaurant-loader {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,137 @@
+.foodItem {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 786px) {
+  .foodItem {
+    width: 45%;
+    margin-right: 20px;
+  }
+}
+
+.food-item-image {
+  width: 180px;
+  height: 150px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 786px) {
+  .food-item-image {
+    width: 250px;
+    height: 150px;
+  }
+}
+
+.food-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.food-item-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin: 0px;
+}
+
+@media screen and (min-width: 786px) {
+  .food-item-name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.cost-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.food-item-cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #334155;
+  margin: 0px;
+}
+
+@media screen and (min-width: 786px) {
+  .food-item-cost {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.rating-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.food-item-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+  margin: 0px;
+}
+
+.add-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  border: 2px solid #ffa412;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 52px;
+  height: 32px;
+  background: none;
+}
+
+.cart-btn-qty-cont {
+  display: flex;
+  align-items: center;
+}
+
+.decrement-count {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.increment-count {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.icon-btn {
+  color: #475569;
+  width: 16px;
+  height: 16px;
+}
+
+.active-count {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}

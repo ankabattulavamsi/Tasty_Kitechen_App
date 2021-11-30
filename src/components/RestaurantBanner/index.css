@@ -1,0 +1,125 @@
+.banner-bg {
+  width: 100%;
+  height: 350px;
+  background: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.banner-container {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+.res-image {
+  width: 150px;
+  height: 280px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .res-image {
+    width: 445px;
+    height: 280px;
+    border-radius: 8px;
+  }
+}
+
+.res-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.res-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 48px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .res-name {
+    font-size: 30px;
+  }
+}
+
+.res-cuisine {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .res-cuisine {
+    font-size: 16px;
+  }
+}
+
+.res-location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .res-location {
+    font-size: 16px;
+  }
+}
+
+.rating-rate-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.sub-text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #e2e8f0;
+}
+
+.separation-line {
+  width: 40px;
+  height: 0px;
+  border: 1px solid #e2e8f0;
+  transform: rotate(90deg);
+  margin: 0px;
+}
